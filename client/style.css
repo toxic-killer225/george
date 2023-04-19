@@ -14,7 +14,7 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background-image: linear-gradient(to right, purple, blue);
 
   display: flex;
   flex-direction: column;
@@ -50,7 +50,9 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  width: 70%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom right, rgb(97, 178, 15), rgb(5, 73, 72));
 }
 
 .chat {
@@ -117,7 +119,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: white;
 
   display: flex;
   flex-direction: row;
@@ -127,7 +129,7 @@ form {
 textarea {
   width: 100%;
 
-  color: #fff;
+  color: black;
   font-size: 18px;
 
   padding: 10px;
